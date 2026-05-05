@@ -103,13 +103,13 @@ The required screenshots are saved in `screenshots/`:
 - `history_view.png`
 - `details_modal.png`
 
-## Notes On Prompt Design
-
-Prompt templates are stored in `prompts/`:
-
-- `recipe_extraction.txt`
-- `nutrition_estimation.txt`
-- `substitutions.txt`
-- `meal_planner.txt`
 
 The prompts instruct the LLM to ground its output in scraped page text and available schema.org data, return strict JSON only, avoid inventing missing timings or ingredients, and mark uncertain fields as `"unknown"` where appropriate.
+
+
+##Working ScreenShots:
+<img width="1440" height="1100" alt="extract_recipe_page" src="https://github.com/user-attachments/assets/635b18bd-4146-4bf1-a689-a22134fe18b6" />
+<img width="1440" height="1100" alt="history_view" src="https://github.com/user-attachments/assets/735da471-33f0-4edb-8b38-f5e0e07e4ca7" />
+<img width="1440" height="1100" alt="extract_recipe_page" src="https://github.com/user-attachments/assets/76cc4ff7-f0ed-4885-b880-c93c3afbb825" />
+
+
